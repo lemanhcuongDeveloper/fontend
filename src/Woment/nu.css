@@ -1,0 +1,91 @@
+/* nu.css */
+
+/* Đặt nền cho trang */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Màu nền nhẹ */
+}
+
+/* Định dạng cho Header */
+header {
+    background-color: #ff5722; /* Màu nền cho Header */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Định dạng cho Footer */
+footer {
+    background-color: #ff5722; /* Màu nền cho Footer */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Định dạng cho container */
+.container {
+    max-width: 1200px; /* Chiều rộng tối đa */
+    margin: 0 auto; /* Canh giữa */
+    padding: 20px;
+}
+
+/* Định dạng cho tiêu đề trang */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Màu tiêu đề */
+}
+
+/* Định dạng cho danh sách sản phẩm */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Canh giữa sản phẩm */
+    padding: 20px;
+}
+
+/* Định dạng cho từng sản phẩm */
+.product-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 250px; /* Chiều rộng sản phẩm */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Hiệu ứng hover */
+}
+
+.product-item:hover {
+    transform: scale(1.05); /* Phóng to sản phẩm khi hover */
+}
+
+/* Định dạng cho hình ảnh sản phẩm */
+.product-item img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng sản phẩm */
+    border-radius: 5px;
+}
+
+/* Định dạng cho tiêu đề sản phẩm */
+.product-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Định dạng cho mô tả sản phẩm */
+.product-description {
+    font-size: 0.9em;
+    color: #666; /* Màu chữ mô tả */
+}
+
+/* Định dạng cho giá sản phẩm */
+.product-price {
+    color: #ff5722; /* Màu giá */
+    font-weight: bold;
+    margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+
+
+.banner {
+  width: 100%; /* Chiếm toàn bộ chiều rộng */
+  margin: 0 auto; /* Đảm bảo căn giữa */
+  position: relative; /* Để dễ dàng căn chỉnh các phần tử con */
+}
+
+.banner-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-item img {
+  width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của banner */
+  height: auto; /* Giữ tỉ lệ hình ảnh */
+  border-radius: 10px; /* Bo góc cho hình ảnh */
+}
+
+/* Thêm style cho dots */
+.slick-dots {
+  bottom: 10px; /* Điều chỉnh vị trí của dots */
+}
+
+/* Thay đổi padding hoặc margin nếu cần */

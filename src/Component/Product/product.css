@@ -1,0 +1,54 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; /* Khoảng cách giữa các sản phẩm */
+    padding: 20px;
+}
+
+.product-item {
+    border: 1px solid #e0e0e0; /* Viền sản phẩm */
+    border-radius: 8px; /* Bo góc */
+    padding: 10px;
+    text-align: center; /* Canh giữa nội dung */
+    background-color: #fff; /* Màu nền */
+    transition: transform 0.2s; /* Hiệu ứng khi hover */
+}
+
+.product-item:hover {
+    transform: scale(1.05); /* Phóng to khi hover */
+}
+
+.product-item img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước sản phẩm */
+    height: auto; /* Tự động điều chỉnh chiều cao */
+}
+
+.product-item h3 {
+    font-size: 1.2em; /* Kích thước tiêu đề sản phẩm */
+    margin: 10px 0; /* Khoảng cách trên và dưới tiêu đề */
+}
+
+.product-item p {
+    margin: 5px 0; /* Khoảng cách giữa các đoạn văn */
+}
+.product-item button {
+    background-color: #ffa500; /* Orange background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block; /* Ensure button takes up space */
+}
+
+.product-item button:hover {
+    background-color: #ff8c00; /* Darker orange on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.product-item button:active {
+    background-color: #ff7f00; /* Slightly darker orange when clicked */
+    transform: scale(1); /* Reset scale on click */
+}

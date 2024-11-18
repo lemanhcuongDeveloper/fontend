@@ -1,0 +1,55 @@
+/* header.css */
+.header {
+    background: linear-gradient(to right, #ff5e3a, #ff2a2a); /* Màu nền gradient */
+    padding: 10px 20px;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 32px; /* Kích thước logo */
+    font-weight: bold;
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0 20px;
+    display: flex;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px; /* Bo góc bên trái */
+}
+
+.search-button {
+    padding: 10px 15px;
+    background-color: white;
+    color: #ff5e3a;
+    border: none;
+    border-radius: 0 5px 5px 0; /* Bo góc bên phải */
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.user-actions a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}

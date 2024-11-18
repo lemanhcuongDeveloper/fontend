@@ -1,0 +1,131 @@
+/* General container styling */
+.login-container {
+    background-color: #ff5722;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e64a19;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d84315;
+}
+
+/* Social login buttons */
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-login .facebook-button {
+    background-color: #1877f2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.social-login .facebook-button:hover {
+    background-color: #155db2;
+}
+
+.social-login .google-button {
+    background-color: white;
+    color: #757575;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.social-login .google-button:hover {
+    background-color: #f7f7f7;
+    border-color: #c2c2c2;
+}
+
+/* Links */
+p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+p a {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p a:hover {
+    color: #ffccbc;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    .login-container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .social-login {
+        gap: 10px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}

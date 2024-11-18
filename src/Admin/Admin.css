@@ -1,0 +1,272 @@
+/* Admin Container */
+.admin-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    background-color: #ff7f32; /* Shopee-like orange */
+    color: white;
+    padding: 30px;
+    height: 100%;
+  }
+  
+  .sidebar h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #ff5f00; /* Darker orange on hover */
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Content Area */
+  .content {
+    flex: 1;
+    padding: 30px;
+    background-color: #f7f7f7; /* Light gray background */
+  }
+  
+  /* Product Table */
+  .product-table {
+    overflow-x: auto;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #ff7f32;
+    color: white;
+    font-size: 16px;
+  }
+  
+  table tr:hover {
+    background-color: #f2f2f2; /* Soft hover effect */
+  }
+  
+  .product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #ff7f32; /* Orange button */
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  
+  button:hover {
+    background-color: #ff5f00;
+  }
+  
+  button:disabled {
+    background-color: #cccccc; /* Disable button color */
+    cursor: not-allowed;
+  }
+  
+  /* Add/Edit Form */
+  .add-form, .edit-form {
+    margin-top: 20px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .add-form h3, .edit-form h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-form input, .edit-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .add-form button, .edit-form button {
+    background-color: #ff7f32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  .add-form button:hover, .edit-form button:hover {
+    background-color: #ff5f00;
+  }
+  
+  .add-form button[type="button"], .edit-form button[type="button"] {
+    background-color: #ccc;
+    margin-left: 10px;
+  }
+  
+  .edit-form label, .add-form label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  /* General Typography and Layout */
+  h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #333;
+    font-size: 16px;
+  }
+  /* Product Table */
+.product-table {
+    overflow-x: auto;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #ff7f32;
+    color: white;
+    font-size: 16px;
+  }
+  
+  table tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  /* Eye icon button */
+.eye-icon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .eye-icon:hover {
+    color: #ff7f32; /* Hover effect on eye icon */
+  }
+  
+  /* Delete button (initially hidden) */
+  .delete-btn {
+    display: none;  /* Hide the delete button by default */
+    background-color: #ff7f32; /* Orange button */
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #ff5f00; /* Darker orange on hover */
+  }
+  
+  /* Edit button */
+  .edit-btn {
+    background-color: #f37b36; /* Green button */
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .edit-btn:hover {
+    background-color: #e14e13;
+  }
+  
+  /* Show delete button and hide eye icon when hovering over the table cell */
+  td:hover .delete-btn {
+    display: inline-block; /* Show delete button when hovering over the table cell */
+  }
+  
+  td:hover .eye-icon {
+    display: none; /* Hide eye icon when hovering over the cell */
+  }
+  
+  td:hover .edit-btn {
+    display: inline-block; /* Show edit button when hovering over the table cell */
+  }
+  

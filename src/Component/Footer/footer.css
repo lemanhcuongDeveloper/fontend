@@ -1,0 +1,27 @@
+/* footer.css */
+.footer {
+    background-color: #f8f8f8; /* Màu nền nhẹ */
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #333; /* Màu chữ */
+    border-top: 1px solid #e7e7e7; /* Đường viền trên */
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ff5e3a; /* Màu chữ cho liên kết */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Gạch chân khi hover */
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
